@@ -8,6 +8,11 @@ This yaml template can be used as a starting point for developing a centralized 
 # Configuration Summary
 This file serves to provide a general overall summary of the LZA configuration files.
 
+1. Centralized VPC Service Endpoints are deployed in Network account
+2. All public ingress traffic flows in from Ingress VPC and is sent to Inspection VPC prior to being sent to workload VPC (ex. Application Load Balancers or F5s can be hosted in Ingress VPC, with targets in workload VPCs)
+3. Public Subnets are deployed in Workload VPCs in this template, but can be removed with above model.
+4. All egress traffic to Internet from Workload VPCs flows thru Inspection VPC (GWLB endpoints) and is then sent to centralized Egress VPC NAT Gateways.
+
 > **_Note_:** LZA administrators are required to review all configuration files and adjust to fit organizational security and compliance needs. This configuration does not inheritly provide full compliance for any framework. Visit the [configuration reference](https://awslabs.github.io/landing-zone-accelerator-on-aws/) to explore available customizations for LZA.
 > 
 ## Architecture Diagram
