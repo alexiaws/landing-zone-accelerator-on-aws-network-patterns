@@ -1,6 +1,6 @@
-Landing Zone Accelerator on AWS - Sample Network Patterns - Hub and Spoke
+# Landing Zone Accelerator on AWS - Sample Network Patterns - Hub and Spoke
 
-Overview  
+## Overview
 This sample configuration demonstrates how to create a centralized inspection VPC using AWS Landing Zone Accelerator. It sets up a centralized Ingress VPC, centralized Egress VPC, and centralized Inspection VPC leveraging Gateway Load Balancer Endpoints.  
 
 This yaml template can be used as a starting point for developing a centralized inspection architecture with AWS LZA.
