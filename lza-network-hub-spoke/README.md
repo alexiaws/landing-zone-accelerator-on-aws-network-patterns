@@ -9,6 +9,9 @@ This yaml template can be used as a starting point for developing a centralized 
 This file serves to provide a general overall summary of the LZA configuration files.
 
 > **_Note_:** LZA administrators are required to review all configuration files and adjust to fit organizational security and compliance needs. This configuration does not inheritly provide full compliance for any framework. Visit the [configuration reference](https://awslabs.github.io/landing-zone-accelerator-on-aws/) to explore available customizations for LZA.
+> 
+## Architecture Diagram
+1. Refer to the [Best Practices](https://aws.amazon.com/blogs/networking-and-content-delivery/centralized-inspection-architecture-with-aws-gateway-load-balancer-and-aws-transit-gateway/) for Gateway Load Balancer centralized inspection patterns.
 
 ### __Network Configuration__
 | Configuration Item | Status | Detail |
