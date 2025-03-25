@@ -16,7 +16,7 @@ This file serves to provide a general overall summary of the LZA configuration f
 | Delete Default VPC | Disalbed |  |
 | Central IPAM | Enabled | /16 Defined for Home Region |
 | VPC Endpoint Policies | Defined | Default and EC2 VPC endpoints |
-| Provisioned VPCs | Defined | Shared-Main |
+| Provisioned VPCs | Defined | Workload Ingress Egress Inspection Shared-Services |
 | Global VPC Flow Logs | Enabled | Delivery to CloudWatch Logs |
 
 ### __Accounts Configuration__
