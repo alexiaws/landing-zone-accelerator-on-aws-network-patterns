@@ -29,7 +29,7 @@ This sample has minimal dependency on this config file. It only defines the addi
 This sample has minimal dependency on this config file. It only adds the additional OUs for demonstrative purposes.
 | Configuration Item | Status | Detail 
 | - | - | - |
-| OUs | Defined | Workload <br> Workload/Test <br> Workload/Prod |
+| OUs | Defined | Workload <br> Infrastructure |
 
 
 # For further consideration
