@@ -17,14 +17,13 @@ This file serves to provide a general overall summary of the LZA configuration f
 | Central IPAM | Enabled | /16 Defined for Home Region |
 | VPC Endpoint Policies | Defined | Default and EC2 VPC endpoints |
 | Provisioned VPCs | Defined | Shared-Main |
-| Provisioned Subnets | Defined | Network-Egress-A **(PUBLIC SUBNET)**<br> Network-Egress-B **(PUBLIC SUBNET)**<br> Network-Endpoints-A <br> Network-Endpoints-B <br> Shared-Services-A <br> Shared-Services-B <br> Workload-App-1-Prod-A <br> Workload-App-1-Prod-B <br> Workload-App-1-Test-A <br> Workload-App-1-Test-B |
 | Global VPC Flow Logs | Enabled | Delivery to CloudWatch Logs |
 
 ### __Accounts Configuration__
 This sample has minimal dependency on this config file. It only defines the additional example application accounts for demonstrative purposes.
 |  Configuration Item | Status | Detail |
 | - | - | - |
-| Workload AWS Accounts | Defined | SharedServices <br> Network <br> App-1-Test <br> App-1-Prod |
+| Workload AWS Accounts | Defined | SharedServices <br> Network <br> App-1 <br> App-2 |
 
 ### __Organization Configuration__
 This sample has minimal dependency on this config file. It only adds the additional OUs for demonstrative purposes.
